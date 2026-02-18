@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Art Gallery | ART G</title>
+
+  <!-- Correct CSS Path (NO leading slash) -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -17,6 +19,7 @@
 
   <nav class="nav" id="nav">
     <ul class="nav-list">
+      <!-- Correct Navigation (relative paths) -->
       <li><a href="index.html">Home</a></li>
       <li><a href="artists.html">Artists</a></li>
       <li><a href="collections.html">Collections</a></li>
@@ -28,8 +31,10 @@
 <main class="gallery">
   <section class="gallery-grid">
 
+    <!-- Correct Image Paths (NO leading /) -->
+
     <article class="card">
-      <img src="/images/img1.jpg" alt="Artwork 1">
+      <img src="images/img1.jpg" alt="Artwork 1">
       <div class="overlay">
         <h3>Neon Silence</h3>
         <p>Digital Art</p>
@@ -37,7 +42,7 @@
     </article>
 
     <article class="card">
-      <img src="/images/img2.jpg" alt="Artwork 2">
+      <img src="images/img2.jpg" alt="Artwork 2">
       <div class="overlay">
         <h3>Urban Mood</h3>
         <p>Photography</p>
@@ -45,7 +50,7 @@
     </article>
 
     <article class="card">
-      <img src="/images/img3.jpg" alt="Artwork 3">
+      <img src="images/img3.jpg" alt="Artwork 3">
       <div class="overlay">
         <h3>Color Storm</h3>
         <p>Modern Art</p>
@@ -53,7 +58,7 @@
     </article>
 
     <article class="card">
-      <img src="/images/img4.jpg" alt="Artwork 4">
+      <img src="images/img4.jpg" alt="Artwork 4">
       <div class="overlay">
         <h3>Midnight Glow</h3>
         <p>Fine Art</p>
@@ -61,7 +66,7 @@
     </article>
 
     <article class="card">
-      <img src="/images/img5.jpg" alt="Artwork 5">
+      <img src="images/img5.jpg" alt="Artwork 5">
       <div class="overlay">
         <h3>Golden Frame</h3>
         <p>Illustration</p>
@@ -69,7 +74,7 @@
     </article>
 
     <article class="card">
-      <img src="/images/img6.jpg" alt="Artwork 6">
+      <img src="images/img6.jpg" alt="Artwork 6">
       <div class="overlay">
         <h3>Abstract Flow</h3>
         <p>Concept Art</p>
@@ -85,6 +90,8 @@
   <img id="modal-img" src="" alt="Preview">
 </div>
 
+<!-- Correct JS Path -->
 <script src="js/script.js"></script>
+
 </body>
 </html>
