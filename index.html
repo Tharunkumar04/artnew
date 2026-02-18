@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Gallery | ART G</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">ART<span>Gallery</span></div>
+
+  <button class="menu-toggle" id="menu-toggle">
+    ☰
+  </button>
+
+  <nav class="nav" id="nav">
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="artists.html">Artists</a></li>
+      <li><a href="collections.html">Collections</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="gallery">
+  <section class="gallery-grid">
+
+    <article class="card">
+      <img src="/images/img1.jpg" alt="Artwork 1">
+      <div class="overlay">
+        <h3>Neon Silence</h3>
+        <p>Digital Art</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="/images/img2.jpg" alt="Artwork 2">
+      <div class="overlay">
+        <h3>Urban Mood</h3>
+        <p>Photography</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="/images/img3.jpg" alt="Artwork 3">
+      <div class="overlay">
+        <h3>Color Storm</h3>
+        <p>Modern Art</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="/images/img4.jpg" alt="Artwork 4">
+      <div class="overlay">
+        <h3>Midnight Glow</h3>
+        <p>Fine Art</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="/images/img5.jpg" alt="Artwork 5">
+      <div class="overlay">
+        <h3>Golden Frame</h3>
+        <p>Illustration</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="/images/img6.jpg" alt="Artwork 6">
+      <div class="overlay">
+        <h3>Abstract Flow</h3>
+        <p>Concept Art</p>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+  <span class="close-btn" id="close">&times;</span>
+  <img id="modal-img" src="" alt="Preview">
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
